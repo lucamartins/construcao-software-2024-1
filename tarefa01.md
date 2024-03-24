@@ -20,6 +20,8 @@ Dentro da arquitetura, é definido uma convenção para a comunicação HTTP, qu
 ### Convenção de status de uma requisição HTTP
 
 Além da convenção dos métodos HTTP, uma API Rest tem padronizado no resultado de suas chamadas o status de uma requisição. O status é de suma importância para o cliente saber lidar, sobretudo, em situações de falhas ou cenários atípicos.
+
+Alguns status muito utilizados:
 - 200: requisição satisfeita
 - 201: recurso criado com sucesso
 - 400: chamada com erro (comumente indica que tem algum problema na especificação da requisição)
